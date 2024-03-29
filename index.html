@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Edu+SA+Beginner:wght@500&family=Kaushan+Script&family=PT+Sans+Caption&family=Philosopher:wght@700&family=Poppins:wght@200&family=Rajdhani:wght@300;400&family=Saira:wght@500&family=Titillium+Web:wght@200&family=Ysabeau+Office:wght@300&family=Ysabeau+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="firstpage">
+      <div class="welc">
+        <h1>Welcome Onboard!</h1>
+        <p>Let's help you meet up your tasks.</p>
+      </div>
+      <div class="det">
+        <input type="text" placeholder="Fullname">
+        <input type="text" placeholder="Email" id="regmail" >
+        <div class="password-container">
+          <input type="password" placeholder="Password" id="password">
+          <i class="fa-solid fa-eye" id="eye"></i>
+        </div>
+      </div>
+      <div class="reg">
+        <h3 id="regis">Register</h1>
+        <p>Already have an account?<span id="sign"> Sign in</span></p>
+      </div>
+    </section>
+  <section class="secpage">
+    <div class="login">
+      <h2>Log in to your Account</h2>
+      <p>Welcome back!</p>
+    </div>
+    <div class="log">
+      <input type="text" placeholder="Your name" id="uname">
+      <div class="password-container2">
+        <input type="password" placeholder="Password" id="password2">
+        <i class="fa-solid fa-eye" id="eye2"></i>
+      </div>
+    </div>
+    <div class="remb">
+      <div class="rememb">
+        <input type="checkbox">
+        <p>Remember me</p>
+      </div>
+      <p>Forgot password?</p>
+    </div>
+    <div class="conf">
+      <h3 onclick="nameDisplay()" id="log">Log in</h3>
+      <p>Don't have an account?<span id="create"> Create an account</span></p>
+    </div>
+  </section>
+  <section  class="thirdpage">
+    <div class="name">
+      <p> Hello, <span id="namedisp">User</span> ! </p>
+    </div>
+    <div class="greets">
+      <h1 id="greeting"></h1>
+      <i class="fa-solid fa-handshake"></i>
+    </div>
+    <div class="search">
+      <input type="search" id="search" name="s" placeholder="Search task" />
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="task">
+      <h2>Your Tasks:</h2>
+    </div>
+    <div class="tasks">
+      <h2>All</h2>
+      <h2>Work</h2>
+      <h2>Personal</h2>
+      <h2>Family</h2>
+      <h2>Study</h2>
+      <h2>Friends</h2>
+    </div>
+    <div class="todos"></div>
+    <div class="add">
+      <i id="home" class="fa-solid fa-house"></i>
+      <i id="add" class="fa-solid fa-plus"></i>
+      <i class="fa-solid fa-calendar-days"></i>
+    </div>
+  </section>
+  <section class="fourpage">
+    <div class="fourone">
+      <i id="tlists" class="fa-solid fa-arrow-left"></i>
+      <h2>Add Task</h2>
+    </div>
+    <div class="title">
+      <h3>Task titile</h3>
+      <input type="text" placeholder="Add task name" id="ttitle">
+    </div>
+    <div class="categ">
+      <h3>Category</h3>
+      <div class="cat">
+        <h2 id="work">Work</h2>
+        <h2 id="personal">Personal</h2>
+        <h2 id="family" >Family</h2>
+        <h2 id="study">Study</h2>
+        <h2 id="friends" >Friends</h2>
+      </div>
+    </div>
+    <div class="date">
+      <h3>Date</h3>
+      <input type="date"/>
+    </div>
+    <div class="time">
+      <div class="starttime">
+        <h3>Start Time</h3>
+        <input type="time">
+      </div>
+      <div class="endtime">
+        <h3>End Time</h3>
+        <input type="time">
+      </div>
+    </div>
+    <div class="descr">
+      <h3>Description (<span class="sptxt">0/40</span>)</h3>
+      <textarea class="txt" name="desc" rows="7" cols="40" placeholder="Add description" maxlength="40"></textarea>
+    </div>
+    <div class="newt">
+      <h2 id="cnew">Create new task</h2>
+    </div>
+  </section>
+  <script src="script.js"></script>
+  <script src="page.js"></script> 
+</body>
+
+</html>

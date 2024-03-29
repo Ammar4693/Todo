@@ -1,0 +1,355 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Cardo', serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:#000000;
+    padding: 0px 20px 0 20px;
+  }
+  
+  .firstpage{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    height:100vh;
+    color:#efefef;
+    background-color:#000000;
+    padding:10px;
+  }
+  .welc{
+    font-size: 20px;
+  }
+  .det{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+  }
+  .det input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 10px;
+  }
+  .password-container{
+    position: relative;
+  }
+  .password-container .fa-eye{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+  .password-container2{
+    position: relative;
+  }
+  .password-container2 .fa-eye{
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    cursor: pointer;
+    color: lightgray;
+  }
+  .reg{
+    text-align: center;
+    margin-top:100px;
+  }
+  .reg>h3{
+    background-color:#15aaf4;
+    border-radius:10px;
+    font-size:25px;
+    padding:10px;
+    cursor:pointer;
+  }
+  .reg span{
+    color:#50bff7;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  .reg p{
+    padding-top:10px;
+  }
+  .secpage{
+    /* height:100vh; */
+    color:#efefef;
+    background-color:#000000;
+    padding: 10px;
+  }
+  .login{
+    margin-top: 45%;
+  }
+  .login p{
+    padding-top:10px;
+  }
+  
+  .log input{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 10px;
+  }
+  .remb{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+  .rememb{
+    display: flex;
+    justify-content: space-between;
+  }
+  .rememb p{
+    padding-left: 5px;
+  }
+  .rememb input{
+    cursor:pointer;
+  }
+  .remb>p{
+    color: #5686F0;
+    cursor:pointer;
+  }
+  .conf>h3{
+    background-color:#055AD8;
+    border-radius:10px;
+    font-size:18px;
+    padding:10px;
+    cursor:pointer;
+  }
+  .conf span{
+    color:#055AD8;
+    text-decoration:underline;
+    cursor:pointer;
+  }
+  .conf{
+    text-align:center;
+    margin-top:50px;
+  }
+  .conf p{
+    margin-top:10px;
+  }
+  .thirdpage{
+    background-color:#000000;
+    color:#efefef;
+    font-family: 'Ysabeau Office', sans-serif;
+    padding: 10px;
+  }
+  
+  .greets{
+    display:flex;
+    padding-top:10px;
+    color:#CEE5D0;
+  }
+  .greets i{
+    margin-top:6px;
+    padding-left:10px;
+    font-size:24px;
+  }
+  .search{
+    position:relative;
+    padding-top:12px;
+  }
+  .search input{
+    padding:12px;
+    width:100%;
+    border-radius:10px;
+    background-color:#222222;
+    outline:none;
+    border:none;
+    color:#efefef;
+  }
+  .search i{
+    position:absolute;
+    top:50%;
+    right:10px;
+  }
+  .task{
+    margin-top:20px;
+  }
+  .tasks,.cat{
+    display:flex;
+    font-size:10px;
+    justify-content:space-between;
+    margin-top:15px;
+  }
+  .tasks h2{
+    background-color:#222222;
+    color:#CECECE;
+    padding:6px;
+    border-radius:10px;
+  }
+  .todos{
+    height:500px;
+    margin-top:15px;
+    border-radius: 10px;
+    overflow:scroll;
+  }
+  .add{
+    text-align:center;
+    background-color:#222222;
+    width:65%;
+    margin:auto;
+    margin-top:20px;
+    border-radius:15px;
+  }
+  .add i{
+    padding:12px;
+    font-size:20px;
+  }
+  .fourpage{
+    padding: 10px;
+    background-color:#000000;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+  .fourone{
+    color:#efefef;
+    display:flex;
+    /* border:1px solid #efefef; */
+    justify-content:space-around;
+    position:relative;
+  }
+  .fourone i{
+    font-size:25px;
+    position:absolute;
+    top:2px;
+    left:5px;
+  }
+  .title,.categ,.date,.time,.descr{
+    padding:10px;
+    margin-top:10px;
+  }
+  .title,.categ,.date,.time,.descr h3{
+    color:#7C7878;
+    font-size:20px;
+  }
+  .title input{
+    outline:none;
+    border:none;
+    padding:12px;
+    width:100%;
+    color:#efefef;
+    border:1px solid #4F4F4F;
+    border-radius:15px;
+    background-color:#000000;
+    margin-top:20px;
+  }
+  .cat h2{
+    background-color:#222222;
+    color:#CECECE;
+    padding:6px;
+    border-radius:10px;
+  }
+  .date input{
+    outline:none;
+    border:none;
+    padding:12px;
+    width:100%;
+    color:#efefef;
+    border:1px solid #4F4F4F;
+    border-radius:15px;
+    background-color:#000000;
+    margin-top:20px;
+  }
+  .time{
+    display:flex;
+    justify-content:space-between;
+  }
+  .time input{
+    outline:none;
+    border:none;
+    padding:20px;
+    width:100%;
+    color:#efefef;
+    border:1px solid #4F4F4F;
+    border-radius:15px;
+    background-color:#000000;
+    margin-top:20px;
+  }
+  
+  .descr textarea{
+    outline:none;
+    width: 100%;
+    border:none;
+    padding:15px;
+    color:#efefef;
+    border:1px solid #4F4F4F;
+    border-radius:15px;
+    background-color:#000000;
+    margin-top:20px;
+  }
+  .newt h2{
+    color:#efefef;
+    background-color: #951BBF;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .none{
+    display: none;
+  }
+  .cat h2.active {
+    background-color: #951BBF;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+  .thirdpage .tasks h2.active{
+    background-color: #951BBF;
+    color: #ffffff;
+    transition: 0.3s;
+  }
+  .taske {
+    background-color: #222222;
+    padding: 10px;
+    margin-top: 10px;
+    color: #4B4B4B;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    height: 110px;
+    perspective: 1000px;
+  }
+  
+  .taske .card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .taske:hover .card {
+    transform: rotateY(180deg);
+  }
+  
+  .taske .card .front,
+  .taske .card .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .taske .card .front {
+    transform: rotateY(0deg);
+  }
+  
+  .taske .card .back {
+    transform: rotateY(180deg);
+  }
+  .front p{
+    margin-top: 20px;
+  }
+  .des span{
+    text-decoration: underline;
+  }
+  
